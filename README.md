@@ -8,7 +8,8 @@ Instead of relying entirely on standard `ros2_controllers`, this project demonst
 * **OS:** Ubuntu 24.04
 * **ROS 2:** Jazzy Jalisco
 * **Simulator:** Gazebo Harmonic
-* **Dependencies:** ```bash
+* **Dependencies:**
+  ```bash
   sudo apt install ros-jazzy-ros2-control ros-jazzy-ros2-controllers ros-jazzy-ros-gz-sim ros-jazzy-xacro
   ```
 
@@ -53,7 +54,7 @@ ros2 launch pendulum_control_description pendulum_controller.launch.py
 ```
 
 ### 2. Launch the Custom PID Controller
-In a new terminal (remember to `source install/setup.bash`), boot up the Python brain. It will automatically load the YAML configuration and wait for a command.
+It will automatically load the YAML configuration and wait for a command.Remember to `source install/setup.bash`.
 ```bash
 ros2 launch pid_controller pid_controller.launch.py
 ```
@@ -74,4 +75,3 @@ ros2 run rqt_plot rqt_plot
 In the GUI, add `/joint_states/position[0]` and `/joint_states/velocity[0]` to watch the physical response curve as you send different setpoints.
 
 ---
-**Author:** Sibasish Barik
