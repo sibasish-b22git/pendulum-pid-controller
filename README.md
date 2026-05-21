@@ -74,4 +74,3 @@ ros2 run rqt_plot rqt_plot
 In the GUI, add `/joint_states/position[0]` and `/joint_states/velocity[0]` to watch the physical response curve as you send different setpoints.
 
 ---
-**Author:** Sibasish Barik
