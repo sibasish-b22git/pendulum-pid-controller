@@ -30,10 +30,10 @@ This project is divided into two primary packages:
 
 ## 🚀 Installation & Build
 
-Clone this repository into your ROS 2 workspace `src` folder:
+Clone this repository into your ROS 2 workspace folder:
 
 ```bash
-cd ~/your_ros2_ws/src
+cd ~/your_ros2_ws
 git clone <your-repository-url>
 ```
 
