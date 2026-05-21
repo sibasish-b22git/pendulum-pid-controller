@@ -2,7 +2,7 @@
 
 This repository contains a ROS 2 (Jazzy) and Gazebo Harmonic simulation of a 1-DOF inverted pendulum, controlled by a custom-written Python PID controller. 
 
-Instead of relying entirely on standard `ros2_controllers`, this project demonstrates how to bridge custom control theory math with the `ros2_control` framework. The Python node reads live physical sensor data from Gazebo, calculates the Proportional-Integral-Derivative (PID) corrections at 100Hz, and sends smooth trajectory commands to the simulated hardware.
+This project demonstrates how to bridge custom control theory math with the `ros2_control` framework. The Python node reads live physical sensor data from Gazebo, calculates the Proportional-Integral-Derivative (PID) corrections at 100Hz, and sends smooth trajectory commands to the simulated hardware.
 
 ## 🛠️ Tech Stack & Requirements
 * **OS:** Ubuntu 24.04
